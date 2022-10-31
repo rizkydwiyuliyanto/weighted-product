@@ -2,127 +2,2483 @@
     "jurusan" : {
         "tgb" : {
             "criteria" : {
-                "c1": 10,
-                "c2": 15,
-                "c3": 10,
-                "c4": 10,
-                "c5": 20,
-                "c6": 15,
-                "c7": 20
+                "c1": {
+                    "bobot": 10,
+                    "NamaSubKrit" : "Bahasa indonesia",
+                    "idSubkit" : "bahasaIndonesia",
+                    "penilaian": [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c2": {
+                    "bobot" : 15,
+                    "NamaSubKrit" : "Matematika",
+                    "idSubkit" : "matematika",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c3": {
+                    "bobot" : 10,
+                    "NamaSubKrit" : "Bahasa inggris",
+                    "idSubkit" : "bahasaInggris",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c4": {
+                    "bobot" : 10,
+                    "NamaSubKrit" : "IPA",
+                    "idSubkit":"ipa",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c5": {
+                    "bobot" : 20,
+                    "NamaSubKrit": "TPA",
+                    "idSubkit" : "tpa",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c6": {
+                    "bobot" :15,
+                    "NamaSubKrit" : "Wawancara",
+                    "idSubkit" : "wawancara",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "text" : "sb",
+                            "bobotSubKrit": 1
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "text" : "b",
+                            "bobotSubKrit": 0.80
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "text" : "cb",
+                            "bobotSubKrit": 0.60
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "text" : "kb",
+                            "bobotSubKrit": 0.30
+                        }
+                    ]
+                },
+                "c7": {
+                    "bobot" : 20,
+                    "NamaSubKrit" : "Prestasi",
+                    "idSubkit" : "prestasi",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "text" : "internasional",
+                            "bobotSubKrit": 1
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "text" : "nasional",
+                            "bobotSubKrit": 0.80
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "text" : "provinsi",
+                            "bobotSubKrit": 0.60
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "text" : "kabupaten",
+                            "bobotSubKrit": 0.40
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "text" : "ta",
+                            "bobotSubKrit": 0.20
+                        }
+                    ]
+                }
             }
         },
         "tf": {
             "criteria" : {
-                "c1": 10,
-                "c2": 20,
-                "c3": 10,
-                "c4": 10,
-                "c5": 20,
-                "c6": 20,
-                "c7": 10
+                "c1": {
+                    "bobot" : 10,
+                    "NamaSubKrit" : "Bahasa indonesia",
+                    "idSubkit" : "bahasaIndonesia",
+                    "penilaian": [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c2": {
+                    "bobot" : 20,
+                    "NamaSubKrit" : "Matematika",
+                    "idSubkit" : "matematika",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c3": {
+                    "bobot" : 10,
+                    "NamaSubKrit" : "Bahasa inggris",
+                    "idSubkit" : "bahasaInggris",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c4": {
+                    "bobot" : 10,
+                    "NamaSubKrit" : "IPA",
+                    "idSubkit":"ipa",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c5": {
+                    "bobot" : 20,
+                    "NamaSubKrit": "TPA",
+                    "idSubkit" : "tpa",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c6": {
+                    "bobot" : 20,
+                    "NamaSubKrit" : "Wawancara",
+                    "idSubkit" : "wawancara",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "text" : "sb",
+                            "bobotSubKrit": 1
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "text" : "b",
+                            "bobotSubKrit": 0.80
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "text" : "cb",
+                            "bobotSubKrit": 0.60
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "text" : "kb",
+                            "bobotSubKrit": 0.30
+                        }
+                    ]
+                },
+                "c7": {
+                    "bobot" : 10,
+                    "NamaSubKrit" : "Prestasi",
+                    "idSubkit" : "prestasi",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "text" : "internasional",
+                            "bobotSubKrit": 1
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "text" : "nasional",
+                            "bobotSubKrit": 0.80
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "text" : "provinsi",
+                            "bobotSubKrit": 0.60
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "text" : "kabupaten",
+                            "bobotSubKrit": 0.40
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "text" : "ta",
+                            "bobotSubKrit": 0.20
+                        }
+                    ]
+                }
             }
         },
         "tkr": {
             "criteria" : {
-                "c1": 10,
-                "c2": 15,
-                "c3": 10,
-                "c4": 10,
-                "c5": 15,
-                "c6": 20,
-                "c7": 20
-            }
+                "c1": {
+                        "bobot" : 10,
+                        "NamaSubKrit" : "Bahasa indonesia",
+                        "idSubkit" : "bahasaIndonesia",
+                        "penilaian": [
+                            {
+                                "idSubkritItem" : "subKritItem1",
+                                "min" : 0,
+                                "max" : 29,
+                                "bobotSubKrit": 0.30
+                            },
+                            {
+                                "idSubkritItem" : "subKritItem2",
+                                "min" : 30,
+                                "max" : 49,
+                                "bobotSubKrit": 0.50
+                            },
+                            {
+                                "idSubkritItem" : "subKritItem3",
+                                "min" : 50,
+                                "max" : 69,
+                                "bobotSubKrit": 0.70
+                            },
+                            {
+                                "idSubkritItem" : "subKritItem4",
+                                "min" : 70,
+                                "max" : 89,
+                                "bobotSubKrit": 0.90
+                            },
+                            {
+                                "idSubkritItem" : "subKritItem5",
+                                "min" : 90,
+                                "max" : 100,
+                                "bobotSubKrit": 1
+                            }
+                        ]
+                    },
+                "c2": {
+                        "bobot" : 15,
+                        "NamaSubKrit" : "Matematika",
+                        "idSubkit" : "matematika",
+                        "penilaian" : [
+                            {
+                                "idSubkritItem" : "subKritItem1",
+                                "min" : 0,
+                                "max" : 29,
+                                "bobotSubKrit": 0.30
+                            },
+                            {
+                                "idSubkritItem" : "subKritItem2",
+                                "min" : 30,
+                                "max" : 49,
+                                "bobotSubKrit": 0.50
+                            },
+                            {
+                                "idSubkritItem" : "subKritItem3",
+                                "min" : 50,
+                                "max" : 69,
+                                "bobotSubKrit": 0.70
+                            },
+                            {
+                                "idSubkritItem" : "subKritItem4",
+                                "min" : 70,
+                                "max" : 89,
+                                "bobotSubKrit": 0.90
+                            },
+                            {
+                                "idSubkritItem" : "subKritItem5",
+                                "min" : 90,
+                                "max" : 100,
+                                "bobotSubKrit": 1
+                            }
+                        ]
+                    },
+                "c3": {
+                        "bobot" : 10,
+                        "NamaSubKrit" : "Bahasa inggris",
+                        "idSubkit" : "bahasaInggris",
+                        "penilaian" : [
+                            {
+                                "idSubkritItem" : "subKritItem1",
+                                "min" : 0,
+                                "max" : 29,
+                                "bobotSubKrit": 0.30
+                            },
+                            {
+                                "idSubkritItem" : "subKritItem2",
+                                "min" : 30,
+                                "max" : 49,
+                                "bobotSubKrit": 0.50
+                            },
+                            {
+                                "idSubkritItem" : "subKritItem3",
+                                "min" : 50,
+                                "max" : 69,
+                                "bobotSubKrit": 0.70
+                            },
+                            {
+                                "idSubkritItem" : "subKritItem4",
+                                "min" : 70,
+                                "max" : 89,
+                                "bobotSubKrit": 0.90
+                            },
+                            {
+                                "idSubkritItem" : "subKritItem5",
+                                "min" : 90,
+                                "max" : 100,
+                                "bobotSubKrit": 1
+                            }
+                        ]
+                    },
+                "c4": {
+                        "bobot" : 10,
+                        "NamaSubKrit" : "IPA",
+                        "idSubkit":"ipa",
+                        "penilaian" : [
+                            {
+                                "idSubkritItem" : "subKritItem1",
+                                "min" : 0,
+                                "max" : 29,
+                                "bobotSubKrit": 0.30
+                            },
+                            {
+                                "idSubkritItem" : "subKritItem2",
+                                "min" : 30,
+                                "max" : 49,
+                                "bobotSubKrit": 0.50
+                            },
+                            {
+                                "idSubkritItem" : "subKritItem3",
+                                "min" : 50,
+                                "max" : 69,
+                                "bobotSubKrit": 0.70
+                            },
+                            {
+                                "idSubkritItem" : "subKritItem4",
+                                "min" : 70,
+                                "max" : 89,
+                                "bobotSubKrit": 0.90
+                            },
+                            {
+                                "idSubkritItem" : "subKritItem5",
+                                "min" : 90,
+                                "max" : 100,
+                                "bobotSubKrit": 1
+                            }
+                        ]
+                    },
+                "c5": {
+                        "bobot" : 15,
+                        "NamaSubKrit": "TPA",
+                        "idSubkit" : "tpa",
+                        "penilaian" : [
+                            {
+                                "idSubkritItem" : "subKritItem1",
+                                "min" : 0,
+                                "max" : 29,
+                                "bobotSubKrit": 0.30
+                            },
+                            {
+                                "idSubkritItem" : "subKritItem2",
+                                "min" : 30,
+                                "max" : 49,
+                                "bobotSubKrit": 0.50
+                            },
+                            {
+                                "idSubkritItem" : "subKritItem3",
+                                "min" : 50,
+                                "max" : 69,
+                                "bobotSubKrit": 0.70
+                            },
+                            {
+                                "idSubkritItem" : "subKritItem4",
+                                "min" : 70,
+                                "max" : 89,
+                                "bobotSubKrit": 0.90
+                            },
+                            {
+                                "idSubkritItem" : "subKritItem5",
+                                "min" : 90,
+                                "max" : 100,
+                                "bobotSubKrit": 1
+                            }
+                        ]
+                    },
+                "c6": {
+                        "bobot" : 20,
+                        "NamaSubKrit" : "Wawancara",
+                        "idSubkit" : "wawancara",
+                        "penilaian" : [
+                            {
+                                "idSubkritItem" : "subKritItem1",
+                                "text" : "sb",
+                                "bobotSubKrit": 1
+                            },
+                            {
+                                "idSubkritItem" : "subKritItem2",
+                                "text" : "b",
+                                "bobotSubKrit": 0.80
+                            },
+                            {
+                                "idSubkritItem" : "subKritItem3",
+                                "text" : "cb",
+                                "bobotSubKrit": 0.60
+                            },
+                            {
+                                "idSubkritItem" : "subKritItem4",
+                                "text" : "kb",
+                                "bobotSubKrit": 0.30
+                            }
+                        ]
+                    },
+                "c7": {
+                        "bobot" : 20,
+                        "NamaSubKrit" : "Prestasi",
+                        "idSubkit" : "prestasi",
+                        "penilaian" : [
+                            {
+                                "idSubkritItem" : "subKritItem1",
+                                "text" : "internasional",
+                                "bobotSubKrit": 1
+                            },
+                            {
+                                "idSubkritItem" : "subKritItem2",
+                                "text" : "nasional",
+                                "bobotSubKrit": 0.80
+                            },
+                            {
+                                "idSubkritItem" : "subKritItem3",
+                                "text" : "provinsi",
+                                "bobotSubKrit": 0.60
+                            },
+                            {
+                                "idSubkritItem" : "subKritItem4",
+                                "text" : "kabupaten",
+                                "bobotSubKrit": 0.40
+                            },
+                            {
+                                "idSubkritItem" : "subKritItem5",
+                                "text" : "ta",
+                                "bobotSubKrit": 0.20
+                            }
+                        ]
+                    }
+                }
         },
         "tkj": {
             "criteria" : {
-                "c1": 10,
-                "c2": 15,
-                "c3": 20,
-                "c4": 10,
-                "c5": 15,
-                "c6": 10,
-                "c7": 20
+                "c1": {
+                    "bobot" : 10,
+                    "NamaSubKrit" : "Bahasa indonesia",
+                    "idSubkit" : "bahasaIndonesia",
+                    "penilaian": [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c2": {
+                    "bobot" : 15,
+                    "NamaSubKrit" : "Matematika",
+                    "idSubkit" : "matematika",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c3": {
+                    "bobot" : 20,
+                    "NamaSubKrit" : "Bahasa inggris",
+                    "idSubkit" : "bahasaInggris",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c4": {
+                    "bobot" : 10,
+                    "NamaSubKrit" : "IPA",
+                    "idSubkit":"ipa",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c5": {
+                    "bobot" : 15,
+                    "NamaSubKrit": "TPA",
+                    "idSubkit" : "tpa",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c6": {
+                    "bobot" : 10,
+                    "NamaSubKrit" : "Wawancara",
+                    "idSubkit" : "wawancara",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "text" : "sb",
+                            "bobotSubKrit": 1
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "text" : "b",
+                            "bobotSubKrit": 0.80
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "text" : "cb",
+                            "bobotSubKrit": 0.60
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "text" : "kb",
+                            "bobotSubKrit": 0.30
+                        }
+                    ]
+                },
+                "c7": {
+                    "bobot" : 20,
+                    "NamaSubKrit" : "Prestasi",
+                    "idSubkit" : "prestasi",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "text" : "internasional",
+                            "bobotSubKrit": 1
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "text" : "nasional",
+                            "bobotSubKrit": 0.80
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "text" : "provinsi",
+                            "bobotSubKrit": 0.60
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "text" : "kabupaten",
+                            "bobotSubKrit": 0.40
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "text" : "ta",
+                            "bobotSubKrit": 0.20
+                        }
+                    ]
+                }
             }
         },
         "rpl": {
             "criteria" : {
-                "c1": 10,
-                "c2": 15,
-                "c3": 20,
-                "c4": 10,
-                "c5": 20,
-                "c6": 15,
-                "c7": 10
+                "c1": {
+                    "bobot" : 10,
+                    "NamaSubKrit" : "Bahasa indonesia",
+                    "idSubkit" : "bahasaIndonesia",
+                    "penilaian": [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c2": {
+                    "bobot" : 15,
+                    "NamaSubKrit" : "Matematika",
+                    "idSubkit" : "matematika",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c3": {
+                    "bobot" : 20,
+                    "NamaSubKrit" : "Bahasa inggris",
+                    "idSubkit" : "bahasaInggris",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c4": {
+                    "bobot" : 10,
+                    "NamaSubKrit" : "IPA",
+                    "idSubkit":"ipa",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c5": {
+                    "bobot" : 20,
+                    "NamaSubKrit": "TPA",
+                    "idSubkit" : "tpa",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c6": {
+                    "bobot" : 15,
+                    "NamaSubKrit" : "Wawancara",
+                    "idSubkit" : "wawancara",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "text" : "sb",
+                            "bobotSubKrit": 1
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "text" : "b",
+                            "bobotSubKrit": 0.80
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "text" : "cb",
+                            "bobotSubKrit": 0.60
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "text" : "kb",
+                            "bobotSubKrit": 0.30
+                        }
+                    ]
+                },
+                "c7": {
+                    "bobot" : 10,
+                    "NamaSubKrit" : "Prestasi",
+                    "idSubkit" : "prestasi",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "text" : "internasional",
+                            "bobotSubKrit": 1
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "text" : "nasional",
+                            "bobotSubKrit": 0.80
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "text" : "provinsi",
+                            "bobotSubKrit": 0.60
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "text" : "kabupaten",
+                            "bobotSubKrit": 0.40
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "text" : "ta",
+                            "bobotSubKrit": 0.20
+                        }
+                    ]
+                }
             }
         },
         "mm": {
             "criteria" : {
-                "c1": 15,
-                "c2": 15,
-                "c3": 15,
-                "c4": 10,
-                "c5": 20,
-                "c6": 10,
-                "c7": 15
-    
+                "c1": {
+                    "bobot" : 15,
+                    "NamaSubKrit" : "Bahasa indonesia",
+                    "idSubkit" : "bahasaIndonesia",
+                    "penilaian": [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c2": {
+                    "bobot" : 15,
+                    "NamaSubKrit" : "Matematika",
+                    "idSubkit" : "matematika",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c3": {
+                    "bobot" : 15,
+                    "NamaSubKrit" : "Bahasa inggris",
+                    "idSubkit" : "bahasaInggris",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c4": {
+                    "bobot" : 10,
+                    "NamaSubKrit" : "IPA",
+                    "idSubkit":"ipa",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c5": {
+                    "bobot" : 20,
+                    "NamaSubKrit": "TPA",
+                    "idSubkit" : "tpa",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c6": {
+                    "bobot" : 10,
+                    "NamaSubKrit" : "Wawancara",
+                    "idSubkit" : "wawancara",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "text" : "sb",
+                            "bobotSubKrit": 1
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "text" : "b",
+                            "bobotSubKrit": 0.80
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "text" : "cb",
+                            "bobotSubKrit": 0.60
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "text" : "kb",
+                            "bobotSubKrit": 0.30
+                        }
+                    ]
+                },
+                "c7": {
+                    "bobot" : 15,
+                    "NamaSubKrit" : "Prestasi",
+                    "idSubkit" : "prestasi",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "text" : "internasional",
+                            "bobotSubKrit": 1
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "text" : "nasional",
+                            "bobotSubKrit": 0.80
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "text" : "provinsi",
+                            "bobotSubKrit": 0.60
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "text" : "kabupaten",
+                            "bobotSubKrit": 0.40
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "text" : "ta",
+                            "bobotSubKrit": 0.20
+                        }
+                    ]
+                }
             }
         },
         "dpk": {
             "criteria" : {
-                "c1": 10,
-                "c2": 10,
-                "c3": 10,
-                "c4": 15,
-                "c5": 20,
-                "c6": 15,
-                "c7": 20
-    
+                "c1": {
+                    "bobot" : 10,
+                    "NamaSubKrit" : "Bahasa indonesia",
+                    "idSubkit" : "bahasaIndonesia",
+                    "penilaian": [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c2": {
+                    "bobot" : 10,
+                    "NamaSubKrit" : "Matematika",
+                    "idSubkit" : "matematika",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c3": {
+                    "bobot" : 10,
+                    "NamaSubKrit" : "Bahasa inggris",
+                    "idSubkit" : "bahasaInggris",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c4": {
+                    "bobot" : 15,
+                    "NamaSubKrit" : "IPA",
+                    "idSubkit":"ipa",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c5": {
+                    "bobot" : 20,
+                    "NamaSubKrit": "TPA",
+                    "idSubkit" : "tpa",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c6": {
+                    "bobot" : 15,
+                    "NamaSubKrit" : "Wawancara",
+                    "idSubkit" : "wawancara",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "text" : "sb",
+                            "bobotSubKrit": 1
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "text" : "b",
+                            "bobotSubKrit": 0.80
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "text" : "cb",
+                            "bobotSubKrit": 0.60
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "text" : "kb",
+                            "bobotSubKrit": 0.30
+                        }
+                    ]
+                },
+                "c7": {
+                    "bobot" : 20,
+                    "NamaSubKrit" : "Prestasi",
+                    "idSubkit" : "prestasi",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "text" : "internasional",
+                            "bobotSubKrit": 1
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "text" : "nasional",
+                            "bobotSubKrit": 0.80
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "text" : "provinsi",
+                            "bobotSubKrit": 0.60
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "text" : "kabupaten",
+                            "bobotSubKrit": 0.40
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "text" : "ta",
+                            "bobotSubKrit": 0.20
+                        }
+                    ]
+                }
             }
         },
         "dkv": {
             "criteria" : {
-                "c1": 10,
-                "c2": 10,
-                "c3": 15,
-                "c4": 10,
-                "c5": 20,
-                "c6": 15,
-                "c7": 20
-    
+                "c1": {
+                    "bobot" : 10,
+                    "NamaSubKrit" : "Bahasa indonesia",
+                    "idSubkit" : "bahasaIndonesia",
+                    "penilaian": [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c2": {
+                    "bobot" : 10,
+                    "NamaSubKrit" : "Matematika",
+                    "idSubkit" : "matematika",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c3": {
+                    "bobot" : 15,
+                    "NamaSubKrit" : "Bahasa inggris",
+                    "idSubkit" : "bahasaInggris",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c4": {
+                    "bobot" : 10,
+                    "NamaSubKrit" : "IPA",
+                    "idSubkit":"ipa",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c5": {
+                    "bobot" : 20,
+                    "NamaSubKrit": "TPA",
+                    "idSubkit" : "tpa",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c6": {
+                    "bobot" : 15,
+                    "NamaSubKrit" : "Wawancara",
+                    "idSubkit" : "wawancara",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "text" : "sb",
+                            "bobotSubKrit": 1
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "text" : "b",
+                            "bobotSubKrit": 0.80
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "text" : "cb",
+                            "bobotSubKrit": 0.60
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "text" : "kb",
+                            "bobotSubKrit": 0.30
+                        }
+                    ]
+                },
+                "c7": {
+                    "bobot" : 20,
+                    "NamaSubKrit" : "Prestasi",
+                    "idSubkit" : "prestasi",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "text" : "internasional",
+                            "bobotSubKrit": 1
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "text" : "nasional",
+                            "bobotSubKrit": 0.80
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "text" : "provinsi",
+                            "bobotSubKrit": 0.60
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "text" : "kabupaten",
+                            "bobotSubKrit": 0.40
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "text" : "ta",
+                            "bobotSubKrit": 0.20
+                        }
+                    ]
+                }
             }
         },
         "ak": {
             "criteria" : {
-                "c1": 10,
-                "c2": 20,
-                "c3": 10,
-                "c4": 10,
-                "c5": 20,
-                "c6": 20,
-                "c7": 10
-    
+                "c1": {
+                    "bobot" : 10,
+                    "NamaSubKrit" : "Bahasa indonesia",
+                    "idSubkit" : "bahasaIndonesia",
+                    "penilaian": [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c2": {
+                    "bobot" : 20,
+                    "NamaSubKrit" : "Matematika",
+                    "idSubkit" : "matematika",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c3": {
+                    "bobot" : 10,
+                    "NamaSubKrit" : "Bahasa inggris",
+                    "idSubkit" : "bahasaInggris",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c4": {
+                    "bobot" : 10,
+                    "NamaSubKrit" : "IPA",
+                    "idSubkit":"ipa",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c5": {
+                    "bobot" : 20,
+                    "NamaSubKrit": "TPA",
+                    "idSubkit" : "tpa",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c6": {
+                    "bobot" : 20,
+                    "NamaSubKrit" : "Wawancara",
+                    "idSubkit" : "wawancara",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "text" : "sb",
+                            "bobotSubKrit": 1
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "text" : "b",
+                            "bobotSubKrit": 0.80
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "text" : "cb",
+                            "bobotSubKrit": 0.60
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "text" : "kb",
+                            "bobotSubKrit": 0.30
+                        }
+                    ]
+                },
+                "c7": {
+                    "bobot" : 10,
+                    "NamaSubKrit" : "Prestasi",
+                    "idSubkit" : "prestasi",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "text" : "internasional",
+                            "bobotSubKrit": 1
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "text" : "nasional",
+                            "bobotSubKrit": 0.80
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "text" : "provinsi",
+                            "bobotSubKrit": 0.60
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "text" : "kabupaten",
+                            "bobotSubKrit": 0.40
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "text" : "ta",
+                            "bobotSubKrit": 0.20
+                        }
+                    ]
+                }
             }
         },
         "pm": {
             "criteria" : {
-                "c1": 20,
-                "c2": 15,
-                "c3": 10,
-                "c4": 10,
-                "c5": 15,
-                "c6": 20,
-                "c7": 10
-    
+                "c1": {
+                    "bobot" : 20,
+                    "NamaSubKrit" : "Bahasa indonesia",
+                    "idSubkit" : "bahasaIndonesia",
+                    "penilaian": [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c2": {
+                    "bobot" : 15,
+                    "NamaSubKrit" : "Matematika",
+                    "idSubkit" : "matematika",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c3": {
+                    "bobot" : 10,
+                    "NamaSubKrit" : "Bahasa inggris",
+                    "idSubkit" : "bahasaInggris",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c4": {
+                    "bobot" : 10,
+                    "NamaSubKrit" : "IPA",
+                    "idSubkit":"ipa",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c5": {
+                    "bobot" : 15,
+                    "NamaSubKrit": "TPA",
+                    "idSubkit" : "tpa",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "min" : 0,
+                            "max" : 29,
+                            "bobotSubKrit": 0.30
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "min" : 30,
+                            "max" : 49,
+                            "bobotSubKrit": 0.50
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "min" : 50,
+                            "max" : 69,
+                            "bobotSubKrit": 0.70
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "min" : 70,
+                            "max" : 89,
+                            "bobotSubKrit": 0.90
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "min" : 90,
+                            "max" : 100,
+                            "bobotSubKrit": 1
+                        }
+                    ]
+                },
+                "c6": {
+                    "bobot" : 20,
+                    "NamaSubKrit" : "Wawancara",
+                    "idSubkit" : "wawancara",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "text" : "sb",
+                            "bobotSubKrit": 1
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "text" : "b",
+                            "bobotSubKrit": 0.80
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "text" : "cb",
+                            "bobotSubKrit": 0.60
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "text" : "kb",
+                            "bobotSubKrit": 0.30
+                        }
+                    ]
+                },
+                "c7": {
+                    "bobot" : 10,
+                    "NamaSubKrit" : "Prestasi",
+                    "idSubkit" : "prestasi",
+                    "penilaian" : [
+                        {
+                            "idSubkritItem" : "subKritItem1",
+                            "text" : "internasional",
+                            "bobotSubKrit": 1
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem2",
+                            "text" : "nasional",
+                            "bobotSubKrit": 0.80
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem3",
+                            "text" : "provinsi",
+                            "bobotSubKrit": 0.60
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem4",
+                            "text" : "kabupaten",
+                            "bobotSubKrit": 0.40
+                        },
+                        {
+                            "idSubkritItem" : "subKritItem5",
+                            "text" : "ta",
+                            "bobotSubKrit": 0.20
+                        }
+                    ]
+                }
             }
         }
-    },
-    "kategori": {
-        "bahasaIndonesia": [0.30, 0.50, 0.70, 0.90, 1],
-        "matematika":[0.30, 0.50, 0.70, 0.90, 1],
-        "bahasaInggris":[0.30, 0.50, 0.70, 0.90, 1],
-        "ipa":[0.30, 0.50, 0.70, 0.90, 1],
-        "tpa":[0.30, 0.50, 0.70, 0.90, 1],
-        "wawancara" : [1, 0.80, 0.60, 0.30],
-        "prestasi": [1, 0.80, 0.60, 0.40, 0.20]
     }
 }
